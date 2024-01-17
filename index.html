@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pogoda</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body onload="startApp();">
+    
+    <div class="container">
+        <table>
+            <thead>
+                <tr class="element-row-first">
+
+                    <th class="element-data-first">
+                        <img src="" alt="currentWeatherImg" id="currentWeatherImg" class="element-first"> 
+                    </th>
+                    <th class="element-data-first">
+                        <a href="#" id = "locationLink" class="element-first"></a>
+                    </th>
+
+                </tr>
+            </thead>
+
+            <tr class="element-row-one">
+
+                <td>
+                    Temperatura:
+                </td>
+                <td>
+                    <span id = "temp" class="element-current">
+
+                    </span>
+                </td>
+            </tr>
+
+            <tr class="element-row">
+
+                <td>
+                    Wilgotnosc:
+                </td>
+                <td>
+                    <span id = "humidity" class="element">
+
+                    </span>
+                </td>
+            </tr>
+
+            <tr class="element-row-one">
+
+                <td>
+                    Cisnienie:
+                </td>
+                <td>
+                    <span id = "pressure" class="element-current">
+
+                    </span>
+                </td>
+            </tr>
+
+            <tr class="element-row">
+
+                <td>
+                    Zachmurzenie:
+                </td>
+                <td>
+                    <span id = "cloudsPerc" class="element">
+
+                    </span>
+                </td>
+            </tr>
+
+            <tr class="element-row-one">
+
+                <td>
+                    Predkosc wiatru:
+                </td>
+                <td>
+                    <span id = "windSpeed" class="element-current">
+
+                    </span>
+                </td>
+            </tr>
+
+            <tr class="element-row">
+
+                <td>
+                    Wschód Słońca:
+                </td>
+                <td>
+                    <span id = "sunRise" class="element">
+
+                    </span>
+                </td>
+            </tr>
+
+            <tr class="element-row-one" >
+
+                <td>
+                    Zachód Słońca:
+                </td>
+                <td>
+                    <span id = "sunSet" class="element-current">
+
+                    </span>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+    <script src = "script.js"></script>
+</html>

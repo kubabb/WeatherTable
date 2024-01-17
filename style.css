@@ -1,0 +1,55 @@
+@media only screen and (max-width: 600px) {
+    
+}
+
+*{
+    background-color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    width: 70%;
+    background-color: white;
+    -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+
+
+.element-data-first{
+    background-color: rgb(9, 165, 255);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration:underline;
+}
+.element-first{
+    background-color: rgb(9, 165, 255);
+    padding: 10px;
+}
+
+.element-row td{
+    background-color: rgb(9, 165, 255);
+    padding: 10px;
+}
+.element{
+    background-color: rgb(9, 165, 255);
+}
+.element-row-one td{
+    background-color: white;
+    padding: 10px;
+}
+.element-current{
+    background-color: white;
+}
